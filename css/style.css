@@ -80,3 +80,7 @@
   background-color: var(--blue-light);
   border: 1px solid var(--blue-black);
 }
+
+.foto {
+  width: 350px;
+}
