@@ -7,12 +7,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background-color: aqua;
+:root {
+  --text-white: #dddcdc;
+  --blue-light: #0095FF;
+  --gray-description: #A4A2A2;
+  --blue-black: #12265F;
+  --green-light: #39DF28;
 }
 
-img {
-  width: 60px;
-  height: 55px;
-  margin-left: 90px;
+body {
+  background-color: var(--text-white);
 }

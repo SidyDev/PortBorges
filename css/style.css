@@ -1,0 +1,38 @@
+#menu-bar {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 55px;
+}
+
+.list {
+  display: flex;
+  gap: 32px;
+}
+
+.list-menu, .list-social {
+  display: flex;
+  position: relative;
+  gap: 32px;
+  align-items: center;
+}
+.list-menu li, .list-social li {
+  list-style: none;
+}
+.list-menu a {
+  text-decoration: none;
+  color: var(--blue-black);
+  transition: .6s;
+}
+.list-menu a:hover {
+  color: var(--green-light);
+}
+
+.list-social img {
+  width: 30px;
+}
