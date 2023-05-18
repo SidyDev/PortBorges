@@ -15,7 +15,3 @@
   --blue-black: #12265F;
   --green-light: #39DF28;
 }
-
-body {
-  background-color: var(--bg-white);
-}
