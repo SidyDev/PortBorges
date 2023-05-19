@@ -51,7 +51,7 @@
   background-attachment: fixed;
 }
 
-.container {
+#home .container {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -107,12 +107,70 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.sobre {
+
+#projetos .container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   backdrop-filter: blur(4px);
+}
+
+.colecao {
+  display: flex;
+  gap: 32px;
+  margin-top: 10px;
+}
+
+.frontend {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.gamedev {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  width: 200px;
+  height: 240px;
+  background-color: var(--blue-black);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.cards h1 {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.image {
+  width: 160px;
+  height: 140px;
+  background-color: var(--gray-description);
+  border-radius: 5px;
+}
+.circles {
+  display: flex;
+  gap: 5px;
+}
+.circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: var(--gray-description);
+}
+
+.title {
+  display: flex;
+  text-align: left;
+  font-size: 24px;
+  color: var(--blue-black);
 }
