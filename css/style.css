@@ -101,8 +101,8 @@
 
 #projetos {
   display: block;
-  /*background-image: linear-gradient(to bottom, var(--bg-light) 15%, var(--blue-light), var(--green-light));*/
-  background-image: linear-gradient(to bottom, rgb(149 114 252), rgb(67 231 173), rgb(226 212 92));
+  background-image: linear-gradient(to bottom, var(--bg-light) 15%, var(--gray-description));
+  /*background-image: linear-gradient(to bottom, rgb(149 114 252), rgb(67 231 173), rgb(226 212 92));*/
 }
 
 #projetos .container {
@@ -157,6 +157,7 @@
   display: flex;
   gap: 5px;
 }
+
 .circle {
   width: 38px;
   height: 38px;
@@ -172,7 +173,6 @@
 }
 
 #sobre {
-  background-image: linear-gradient(to top, rgb(149 114 252), rgb(67 231 173), rgb(226 212 92));
   width: 100%;
   height: 93vh;
   justify-content: center;
@@ -238,9 +238,8 @@
   gap: 24px;
   margin-top: 10px;
 }
-.circle-tech {
+.circle-tech img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: var(--gray-description);
 }
