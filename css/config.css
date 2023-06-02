@@ -15,3 +15,7 @@
   --blue-black: #12265F;
   --green-light: #39DF28;
 }
+
+body {
+  height: 100vh;
+}
