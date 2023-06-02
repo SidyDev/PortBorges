@@ -44,7 +44,7 @@
 
 #home {
   display: block;
-  background: url("../img/back.jpg");
+  background: url("../img/bgbg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,6 +59,7 @@
   align-items: center;
   text-align: center;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .description h1 {
@@ -116,6 +117,7 @@
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .colecao {
@@ -173,7 +175,7 @@
   display: flex;
   text-align: left;
   font-size: 24px;
-  color: var(--blue-black);
+  color: var(--green-light);
 }
 
 #sobre {
@@ -193,6 +195,7 @@
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .sobre-front {
@@ -249,4 +252,48 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
+}
+
+#contato {
+  display: flex;
+  width: 100%;
+  height: 93vh;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/bgbg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#contato .container {
+  display: flex;
+  max-width: 860px;
+  width: 720px;
+  height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+#contato .container input {
+  width: 80%;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.btn-cont {
+  padding: 8px 50px;
+}
+
+#contato h1 {
+  margin-bottom: 15px;
+  color: var(--green-light);
+  font-size: 36px;
 }
